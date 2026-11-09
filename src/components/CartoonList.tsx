@@ -3,7 +3,7 @@ import CartoonCard from './CartoonCard';
 
 export default function CartoonList({ cartoons }: { cartoons: CartoonType[] }) {
     return (
-        <div className="row">
+        <div className="row mx-auto">
             {cartoons.map((cartoon) => (
                 <CartoonCard key={cartoon.id} cartoon={cartoon} />
             ))}
