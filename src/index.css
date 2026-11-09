@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    margin: 0;
+    padding: 0;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, rgb(228, 192, 10), rgb(10, 177, 10)) !important;
+}
+/*
+#mainContainer {
+    background-color: rgba(0, 0, 0, 0.125);
+    padding: 20px;
+    padding-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    margin-top: 20px;
+}*/
